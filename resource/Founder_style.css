@@ -1,0 +1,211 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #E8EDF0;
+    color: #111;
+  }
+
+  /* ------------------------------- */
+  /* About Us open                   */
+  /* ------------------------------- */
+
+
+
+  /* ------------------------------- */
+  /* HERO SECTION (NEW)              */
+  /* ------------------------------- */
+  .problem-hero {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 80px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 140px 60px 80px;
+  }
+
+  .problem-hero .label {
+    color: #8a8a8a;
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+  .problem-hero .headline {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.05;
+    margin: 0;
+  }
+
+  .problem-hero .right {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(40px);
+    transition: all 1s ease;
+  }
+
+  .problem-hero .hero-img {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 35px;
+  }
+  .problem-hero .open-img {
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 30px;
+  }
+  .problem-hero .left {
+    opacity: 0;
+    top: 0px;
+    left: 0;
+    width: 700px;
+    transform: translateY(40px);
+    transition: all 1s ease;
+  }
+  .problem-hero .right.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .problem-hero .left.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .problem-hero .block {
+    max-width: 520px;
+  }
+
+  .problem-hero .title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .problem-hero .text {
+    color: #555;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  /* RESPONSIVE HERO */
+  @media(max-width: 1100px) {
+    .problem-hero {
+      grid-template-columns: 1fr;
+      padding: 100px 40px 60px;
+    }
+    .problem-hero .headline {
+      font-size: 48px;
+    }
+  }
+
+
+
+  /* ------------------------------- */
+  /* MASONRY SCROLL GRID             */
+  /* ------------------------------- */
+  .wrapper {
+    max-width: 1500px;
+    margin: auto;
+    padding: 0px 40px 200px;
+  }
+
+  .grid {
+    position: relative;
+    width: 100%;
+    min-height: 2000px;
+  }
+
+  .item {
+    position: absolute;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s ease;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+
+  .item.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Make all images larger */
+  .item img {
+    width: 140%;
+    max-width: 550px;
+    border-radius: 4px;
+  }
+
+  .title {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+
+  .text {
+    font-size: 20px;
+    color: #555;
+  }
+
+  .sol-text{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.05;
+    text-align: center;
+  }
+  /* --- MASONRY POSITIONS (UPDATED TO FIT HERO SECTION) --- */
+  #img-big {
+    top: 0px;
+    left: 0;
+    width: 600px;
+  }
+
+  #item1 {
+    top: 0;
+    right: 120px;
+  }
+
+  #item2 {
+    top: 300px;
+    right: 50px;
+  }
+
+  #item3 {
+    top: 850px;
+    left: 0;
+  }
+
+  #item4 {
+    top: 1100px;
+    right: 100px;
+  }
+
+  #item5 {
+    top: 1450px;
+    left: 0;
+  }
+
+  #item6 {
+    top: 1700px;
+    left: 40%;
+  }
+
+  /* MOBILE FALLBACK */
+  @media(max-width: 900px) {
+    .grid {
+      position: static;
+    }
+    .item {
+      position: static;
+      margin-bottom: 80px;
+    }
+    .item img {
+      width: 100%;
+    }
+  }
+.item:nth-child(1) { transition-delay: 0.0s; }
+.item:nth-child(2) { transition-delay: 0.1s; }
+.item:nth-child(3) { transition-delay: 0.2s; }
+.item:nth-child(4) { transition-delay: 0.3s; }
+
+
