@@ -170,41 +170,6 @@ body {
   100% { transform: translateY(0); }
 }
 
-/* ----------------------------- */
-/* RESPONSIVE (Mobile)           */
-/* ----------------------------- */
-
-@media (max-width: 900px) {
-  .hero {
-    flex-direction: column-reverse;
-    text-align: center;
-    padding-top: 40px;
-  }
-
-  .hero-img img {
-    width: 350px;
-    margin-bottom: 40px;
-  }
-
-  .logo {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-}
-
-@media (max-width: 600px) {
-  .big {
-    font-size: 65px;
-  }
-
-  .menu-left {
-    display: none;
-  }
-
-  .auth a {
-    padding: 8px 16px;
-  }
-}
 /* PROBLEM SECTION */
 .problem-grid {
   display: grid;
@@ -336,15 +301,6 @@ body {
   border-right: none;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
-  .problem-grid {
-    grid-template-columns: 1fr;
-  }
-  .problem-item {
-    border-right: none;
-  }
-}
 /* CTA Section */
 .cta-section {
   position: relative;
@@ -521,35 +477,6 @@ body {
   font-size: 16px;
   color: #4b4b4b;
 }
-
-/* RESPONSIVE DESIGN */
-@media (max-width: 1200px) {
-  .agri-title {
-    font-size: 68px;
-  }
-  .agri-description {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .agri-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-  .agri-cards {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 600px) {
-  .agri-title {
-    font-size: 48px;
-  }
-  .agri-description {
-    font-size: 18px;
-  }
-}
 .compare-final {
   position: relative;
   width: 100%;
@@ -611,25 +538,4 @@ body {
 /* LEFT COLUMN SPACING FROM STEM */
 .left {
   padding-right: 40px;
-}
-
-@media (max-width: 1000px) {
-  .compare-final {
-    grid-template-columns: 1fr;
-    text-align: left;
-    height: auto;
-    padding: 40px 6%;
-  }
-
-  .compare-col {
-    margin-bottom: 40px;
-  }
-
-  .compare-col h2 {
-    font-size: 30px;
-  }
-
-  .compare-col ul {
-    font-size: 18px;
-  }
 }
