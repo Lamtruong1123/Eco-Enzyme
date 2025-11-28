@@ -38,6 +38,7 @@
   color: #5b3a2a;
   font-weight: 400;
   transition: 0.25s;
+  font-size: 10px;
 }
 
 .menu-left li a:hover {
@@ -466,7 +467,7 @@
 
 /* RIGHT COLUMN SPACING AWAY FROM STEM */
 .right1 {
-  padding-left: 380px; /* pushes text away from center stem */
+  padding-left: 210px; /* pushes text away from center stem */
 }
 
 /* LEFT COLUMN SPACING FROM STEM */
@@ -520,14 +521,14 @@
 }
 
 .vm-title {
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 800;
   line-height: 1.25;
   margin-bottom: 20px;
 }
 
 .vm-text {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 1.6;
   opacity: 0.95;
   max-width: 450px;
@@ -537,7 +538,7 @@
   position: absolute;
   top: -40px;
   right: -90px;
-  width: 450px;
+  width: 300px;
   height: auto;
   object-fit: contain;
   filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));
@@ -789,7 +790,7 @@
   opacity: 0.7;
 }
 .footer-col-right{
-  padding-left: 200px;
+  padding-left: 50px;
 }
 .menu-left li a {
   text-decoration: none;
