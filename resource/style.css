@@ -418,7 +418,7 @@ body {
 }
 
 .agri-title {
-  font-size: 80px;
+  font-size: 60px;
   line-height: 1.05;
   font-weight: 700;
   color: #613F2C;
@@ -433,7 +433,7 @@ body {
 }
 
 .agri-description {
-  font-size: 28px;
+  font-size: 21px;
   line-height: 1.7;
   color: #3A3A3A;
   max-width: 600px;
@@ -472,13 +472,13 @@ body {
 }
 
 .stat-card p {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
 .stat-card .subtext {
-  font-size: 16px;
+  font-size: 13px;
   color: #555;
 }
 
@@ -493,13 +493,13 @@ body {
 }
 
 .green-card p {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 600;
   margin: 15px 0;
 }
 
 .green-card .subtext {
-  font-size: 16px;
+  font-size: 13px;
   color: #4b4b4b;
 }
 
