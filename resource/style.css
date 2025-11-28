@@ -609,8 +609,7 @@ body {
   align-content: center;
 }
 .card img{
-  width: 150px;
-  height: 100px;
+  height: 60px;
 }
 @keyframes spin {
   from {translate: 0;}
