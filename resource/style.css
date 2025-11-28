@@ -472,7 +472,7 @@ body {
 }
 
 .stat-card p {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -493,7 +493,7 @@ body {
 }
 
 .green-card p {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
   margin: 15px 0;
 }
