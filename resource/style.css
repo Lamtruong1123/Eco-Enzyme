@@ -466,13 +466,13 @@ body {
 
 /* STAT CARD */
 .stat-card h3 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
 .stat-card p {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -488,12 +488,12 @@ body {
 }
 
 .green-card h3 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
 }
 
 .green-card p {
-  font-size: 22px;
+  font-size: 15px;
   font-weight: 600;
   margin: 15px 0;
 }
@@ -609,7 +609,7 @@ body {
   align-content: center;
 }
 .card img{
-  width: 200px;
+  width: 100px;
   height: 100px;
 }
 @keyframes spin {
