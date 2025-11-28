@@ -103,6 +103,7 @@ body {
   padding: 30px 30px;
   margin-left: 80px;
   height: 550px;
+  margin-top: 90px;
 }
 
 /* LEFT TEXT BLOCK */
@@ -130,7 +131,8 @@ body {
   color: #5b3a2a;
 }
 .badges {
-  width: 160px
+  width: 160px;
+  margin-left: 20px;
 }
 .badges img{
   width: 100px;
@@ -150,7 +152,7 @@ body {
   text-decoration: none;
   padding: 15px 40px;
   border-radius: 14px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
   box-shadow: 0 8px 22px rgba(192,139,90,0.35);
   transition: 0.3s;
@@ -162,7 +164,7 @@ body {
 }
 
 .price {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 }
 
