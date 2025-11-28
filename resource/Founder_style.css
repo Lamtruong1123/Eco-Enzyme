@@ -479,7 +479,7 @@
 /* Section wrapper */
 .vm-section {
   display: grid;
-  grid-template-columns: 1fr 70px 1fr;
+  grid-template-columns: 0.75fr 1fr;
   background-color: #1f442e;
   padding: 80px 0;
   position: relative;
@@ -492,7 +492,7 @@
 /* Shared base */
 .vm-left,
 .vm-right {
-  margin-left: 100px;
+
   padding: 40px 60px;
   position: relative;
 }
@@ -531,13 +531,13 @@
   font-size: 13px;
   line-height: 1.6;
   opacity: 0.95;
-  max-width: 450px;
+  max-width: 300px;
 }
 
 .vm-right img{
   position: absolute;
-  top: -40px;
-  right: -90px;
+  bottom: 10px;
+  left: 350px;
   width: 300px;
   height: auto;
   object-fit: contain;
@@ -547,7 +547,7 @@
 /* RIGHT SIDE IMAGE OVERLAY EFFECT */
 .vm-right {
   border-radius: 40px;
-  width: 800px;
+  width: 600px;
   height: 485px;  
   background-size: cover;
   background-position: center;
@@ -954,7 +954,7 @@ padding: 50px 50px;
 /* EACH SDG CARD */
 .sdg-card {
   background: rgba(255, 255, 255, 0.08);
-  width: 380px;
+  width: 300px;
   padding: 22px;
   border-radius: 16px;
   backdrop-filter: blur(4px);
@@ -964,7 +964,7 @@ padding: 50px 50px;
 }
 .sdg-card2 {
   background: rgba(255, 255, 255, 0.08);
-  width: 380px;
+  width: 300px;
   padding: 22px;
   border-radius: 16px;
   backdrop-filter: blur(4px);
